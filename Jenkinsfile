@@ -4,7 +4,7 @@ pipeline {
   environment {
     AWS_REGION = 'ap-south-1'              
     ECR_REPO = 'my-node-app'   
-    AWS_ACCOUNT = '390776111022'         
+    AWS_ACCOUNT = '108792016419'         
     IMAGE_TAG = "${env.BUILD_NUMBER}"
     ECR_URI = "${AWS_ACCOUNT}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPO}"
   }
