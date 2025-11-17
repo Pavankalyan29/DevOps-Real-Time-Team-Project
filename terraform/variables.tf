@@ -21,5 +21,5 @@ variable "ecr_image_tag" {
 variable "public_key" {
   description = "Optionally provide SSH public key to access EC2"
   type        = string
-  default     = "capstone-deploy-key"   # optional, you can pass key pair name instead
+  default     = "jenkins-key"   # optional, you can pass key pair name instead
 }
